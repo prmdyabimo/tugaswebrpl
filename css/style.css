@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.header {
+  background-color: red;
+  display: block;
+}
+
+.header .right {
+  background-color: blue;
+  text-align: end;
+  padding: 10px;
+}
+
+.header .right a {
+  text-decoration: none;
+  margin: 10px;
+  color: #ffffff;
+}
+
+.header .right a:hover {
+  color: #000;
+  transition: all 0.5s;
+}
+
+.header .navbar {
+  display: flex;
+}
+
+.header .navbar .left-navbar {
+  display: flex;
+  width: 50%;
+  padding: 10px 20px; 
+}
+
+.header .navbar .left-navbar img{
+  width: 50px;
+  border-radius: 50%;
+}
+
+.header .navbar .left-navbar .text-left-navbar {
+  margin: auto 10px;
+  font-size: 20px;
+}
+
+.header .navbar .left-navbar .text-left-navbar a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.header .navbar .right-navbar {
+  width: 50%;
+  text-align: end;
+  margin: auto;
+  padding-right: 10px;
+}
+
+.header .navbar .right-navbar a {
+  color: #ffffff;
+  text-decoration: none;
+  padding: 10px;
+}
+
+.header .navbar .right-navbar a:hover {
+  border-bottom: 2px solid #ffffff;
+}
